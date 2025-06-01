@@ -6,6 +6,6 @@ import vueDevTools from 'vite-plugin-vue-devtools'
 
 // https://vite.dev/config/
 export default defineConfig({
-  plugins: [vue(), tailwindcss(), vueJsx(), vueDevTools()],
   base: '/carloan/',
+  plugins: [vue(), tailwindcss(), vueJsx(), vueDevTools()],
 })
